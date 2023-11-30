@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 15px 10px;
+    
+}
+
+span{
+    color: orange;
+}
+.box{
+    height: 70vh;
+    width: 90%;
+    /* background-color: aquamarine;  */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.imagediv{
+    width: 150px;
+    height: 200px;
+    /* background-color: yellow; */
+    position: absolute;
+    overflow: hidden;
+}
+
+.imagediv img{
+    transform: translateY(100%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* background-size: cover; */
+}
